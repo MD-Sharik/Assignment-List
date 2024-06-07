@@ -180,7 +180,7 @@ const App = () => {
         handleCloseNavMenu={handleCloseNavMenu}
         anchorElNav={anchorElNav}
       />
-      <Container sx={{ pt: 12 }} maxWidth="lg">
+      <Container sx={{ pt: 12, pb: 2 }} maxWidth="lg">
         <SearchBar filter={filter} setFilter={setFilter} />
         <Button
           onClick={fetchData}
