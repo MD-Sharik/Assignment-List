@@ -92,7 +92,7 @@ const NavBar = ({ handleOpenNavMenu, handleCloseNavMenu, anchorElNav }) => (
             color="primary"
             noWrap
             component="a"
-            href="#"
+            href="https://github.com/MD-Sharik/Assignment-List"
             sx={{
               mr: 2,
               display: {
