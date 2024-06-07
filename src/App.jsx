@@ -6,19 +6,12 @@ import {
   AppBar,
   Box,
   Toolbar,
-  IconButton,
-  Menu,
   Button,
-  MenuItem,
   InputBase,
   alpha,
   styled,
 } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
-import AdbIcon from "@mui/icons-material/Adb";
 import SearchIcon from "@mui/icons-material/Search";
-
-const pages = ["Weather", "Dogs", "List"];
 
 const SearchBox = styled("div")(({ theme }) => ({
   position: "relative",
@@ -61,7 +54,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-const NavBar = ({ handleOpenNavMenu, handleCloseNavMenu, anchorElNav }) => (
+const NavBar = () => (
   <AppBar position="fixed">
     <Container maxWidth="xl">
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
